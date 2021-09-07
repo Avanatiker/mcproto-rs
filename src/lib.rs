@@ -18,6 +18,8 @@ pub mod uuid;
 mod chat;
 pub mod byte_order;
 
+#[cfg(feature = "v1_12_2")]
+pub mod v1_12_2;
 #[cfg(feature = "v1_15_2")]
 pub mod v1_15_2;
 #[cfg(feature = "v1_16_3")]
